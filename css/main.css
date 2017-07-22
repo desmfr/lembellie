@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@font-face {font-family: "Cheddar Jack"; src: url('../fonts/Cheddar Jack.ttf');}
+body {padding-bottom: 20px;color: #ccc;background: linear-gradient(#303030, #000);font-size: 1.8em;}
+h1,h2 {font-family: "Cheddar Jack"; color: #ffa735;text-shadow: 0px 0px 6px #000;font-size: 2em;}
+h1 small {color: #5A5E6B; font-size: 1.2em;}
+h2 small {color: #5A5E6B; font-size: 0.8em;}
+.navbar-fixed-top {margin-top:-51px; transition: margin-top 1s ;opacity: 0.95;}
+.navbar .navbar-header a {font-family: "Cheddar Jack"; font-size: 2em;color: #ffa735;text-shadow: 0px 0px 4px #000;opacity: 1;}
+.btn-default {font-family: "Cheddar Jack"; font-size: 1.5em; color: #5A5E6B;}
+.container {background: inherit;}
+.jumbotron {background: rgba(0,0,0,0); color: #333; padding: 0 0 0 0;}
+.jumbotron .container {padding: 0 0 0 0;}
+.col-md-4 {transition: background-color .15s ease-in-out;border-radius:6px;}
+.col-md-4:hover {background-color: #5A5E6B; }
+.col-md-6 {transition: background-color .15s ease-in-out;border-radius:6px;}
+.col-md-6:hover {background-color: #5A5E6B; }
+.list-group-item {background: rgba(0,0,0,0);font-family: "Cheddar Jack";font-size: 1.8em;text-shadow: 0px 0px 6px #000;border: 0px;border-radius: 4px;}
+.list-group-item small {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;font-size:0.5em;text-shadow: 0px 0px 0px;}
+.list-group-item:hover {background-color: #5A5E6B;}
+.badge {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+footer {text-align: right;text-shadow: 0px 0px 2px #000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
