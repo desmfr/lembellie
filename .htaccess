@@ -1,7 +1,0 @@
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^www\.lembellie-restaurant\.fr [NC]
-RewriteRule ^(.*)$ http://lembellie-restaurant.fr/$1 [L,R=301]
-RewriteCond %{QUERY_STRING} !internal_redirect
-RewriteRule ^index\.html$ / [L,R=301]
-RewriteRule ^$ index.html?internal_redirect [L]
